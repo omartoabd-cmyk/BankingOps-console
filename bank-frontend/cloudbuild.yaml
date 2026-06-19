@@ -3,7 +3,7 @@ steps:
   args:
     - 'build'
     - '--build-arg'
-    - 'REACT_APP_API_URL=https://omarasaad-bank-backend-79505229087.northamerica-northeast2.run.app'
+    - 'REACT_APP_API_URL=https://omarasaad-bank-backend-79505229087.northamerica-northeast2.run.app/api/v1'
     - '-t'
     - 'northamerica-northeast2-docker.pkg.dev/$PROJECT_ID/omarasaad-repo/omarasaad-bank-frontend:$SHORT_SHA'
     - 'bank-frontend'
