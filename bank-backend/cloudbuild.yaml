@@ -4,7 +4,7 @@ steps:
     - 'build'
     - '-t'
     - 'northamerica-northeast2-docker.pkg.dev/$PROJECT_ID/omarasaad-repo/omarasaad-bank-backend:$SHORT_SHA'
-    - '.'
+    - 'bank-backend'
 
 - name: 'gcr.io/cloud-builders/docker'
   args:
