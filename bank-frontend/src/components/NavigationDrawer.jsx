@@ -31,7 +31,7 @@ export const NavigationDrawerForm = ({ primary, name, onSubmit, doClose }) => {
     <form onSubmit={handleSubmit}>
       <Stack direction='row'>
         <Button type='submit' color='inherit' style={{justifyContent: "flex-start"}}>
-          Findss
+          Find
         </Button>
         <TextField sx={{ width: 140 }} label={primary} type='number' name={name} size='small' required />
       </Stack>
